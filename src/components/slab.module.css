@@ -1,0 +1,13 @@
+.buttonContainer{
+    display: flex;
+    justify-content: end;
+}
+.slabContainer {
+    display: flex;
+}
+.innerContainer {
+    padding: 0.5rem;
+}
+.ourInput {
+    padding: 0.3rem;
+}
