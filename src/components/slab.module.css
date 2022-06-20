@@ -11,3 +11,24 @@
 .ourInput {
     padding: 0.3rem;
 }
+.slabInnerContainer{
+    display: flex;
+}
+.slabBtnactive{
+    background-color: rgb(1, 1, 104);
+    color: white;
+    cursor: pointer;
+    margin: 10px;
+    height: 30px;
+    width: 30px;
+    text-align: center;
+}
+.slabBtnInactive{
+    border: 1px solid rgb(146, 146, 146);
+    border-radius: 2px;
+    cursor: pointer;
+    margin: 10px;
+    height: 30px;
+    width: 30px;
+    text-align: center;
+}

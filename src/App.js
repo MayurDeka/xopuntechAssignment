@@ -23,10 +23,34 @@ class App extends Component {
       value: {
         max: undefined,
         min: undefined,
-        sd: undefined,
-        md: undefined,
-        dist: undefined,
-        ret: undefined,
+        sd: {
+          value: undefined,
+          s: false,
+          c: false,
+          f: false,
+          p: false
+        },
+        md: {
+          value: undefined,
+          s: false,
+          c: false,
+          f: false,
+          p: false
+        },
+        dist: {
+          value: undefined,
+          s: false,
+          c: false,
+          f: false,
+          p: false
+        },
+        ret: {
+          value: undefined,
+          s: false,
+          c: false,
+          f: false,
+          p: false
+        },
         a: undefined,
         m: undefined
       }
